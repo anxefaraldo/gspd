@@ -1,0 +1,23 @@
+#N canvas 797 83 395 473 10;
+#X obj 113 48 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 6 130 normalize;
+#X msg 74 130 clear;
+#X obj 130 186 histogram;
+#X floatatom 137 131 5 0 0 0 - - -, f 5;
+#X obj 151 57 until;
+#X msg 151 35 10000;
+#X text 196 36 genera 10000 valores. Luego pulsa "normalize" para ajustar
+la visualización, f 27;
+#X text 132 378 el histograma está en rango -15 a 15 \, por tanto
+para visualizar medias superiores no ajusta bien., f 32;
+#X obj 130 107 normal 2 0;
+#X text 213 124 sin argumentos se asume std = 1 y mu = 0, f 24;
+#X text 213 106 arg1: std \, arg2: mu;
+#X connect 0 0 9 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 5 0 9 0;
+#X connect 6 0 5 0;
+#X connect 9 0 4 0;
+#X connect 9 0 3 0;
