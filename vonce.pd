@@ -1,4 +1,4 @@
-#N canvas 1 97 407 242 10;
+#N canvas 530 23 407 242 10;
 #X obj 46 114 outlet;
 #X msg 91 35 1;
 #X msg 19 54 0;
@@ -6,6 +6,10 @@
 #X obj 19 13 inlet;
 #X obj 91 15 inlet;
 #X obj 46 93 spigot 1;
+#X text 228 194 angel Faraldo \, 2007;
+#X text 14 144 once: outputs only its first incoming data \, whatever
+a bang \, a symbol \, a number or a list. Must be reset on its right
+inlet.;
 #X connect 1 0 6 1;
 #X connect 2 0 6 1;
 #X connect 3 0 2 0;

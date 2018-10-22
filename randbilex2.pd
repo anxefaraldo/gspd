@@ -1,4 +1,4 @@
-#N canvas 1073 346 516 665 10;
+#N canvas 1025 327 516 665 10;
 #X obj 23 355 random 1000;
 #X obj 115 193 loadbang;
 #X obj 108 241 sel 0;

@@ -1,0 +1,43 @@
+#N canvas 1489 411 966 505 10;
+#X msg 19 274 \; pd audio-dialog \$1 0 0 0 \$2 0 0 0 \$3 0 0 0 \$4
+0 0 0 \$5 \$6 \$7 \$8;
+#X obj 19 62 inlet;
+#X obj 46 177 cyclone/bondo 8, f 49;
+#X obj 46 103 route id ic od oc sr dl cb bs, f 56;
+#X obj 379 190 print -n;
+#X msg 379 115 ------------------------------------ \, audioconf: unrecognised
+parameter \, Valid configuration parameters are: \, id - input device
+\, ic - number of input channels \, od - output device \, oc - number
+of output channels \, sr - sampling rate \, dl - buffer delay \, cb
+- callbacks \, bs - blocksize \, ------------------------------------
+;
+#X obj 24 12 loadbang;
+#X obj 46 229 pack 4 2 5 2 48000 50 0 64, f 49;
+#X msg 24 35 4 2 5 2 48000 5 0 64;
+#X obj 19 252 list, f 5;
+#X obj 19 83 t b a;
+#X connect 1 0 10 0;
+#X connect 2 0 7 0;
+#X connect 2 1 7 1;
+#X connect 2 2 7 2;
+#X connect 2 3 7 3;
+#X connect 2 4 7 4;
+#X connect 2 5 7 5;
+#X connect 2 6 7 6;
+#X connect 2 7 7 7;
+#X connect 3 0 2 0;
+#X connect 3 1 2 1;
+#X connect 3 2 2 2;
+#X connect 3 3 2 3;
+#X connect 3 4 2 4;
+#X connect 3 5 2 5;
+#X connect 3 6 2 6;
+#X connect 3 7 2 7;
+#X connect 3 8 5 0;
+#X connect 5 0 4 0;
+#X connect 6 0 8 0;
+#X connect 7 0 9 1;
+#X connect 8 0 2 0;
+#X connect 9 0 0 0;
+#X connect 10 0 9 0;
+#X connect 10 1 3 0;
