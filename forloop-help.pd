@@ -11,9 +11,9 @@
 #X text 99 388 float;
 #X text 2 23 makes a classic "for" loop for convenience;
 #X obj 88 199 print;
-#X floatatom 88 144 5 0 0 0 - - -, f 5;
+#X floatatom 88 144 5 0 0 0 - - -;
 #X obj 308 199 print;
-#X floatatom 308 144 5 0 0 0 - - -, f 5;
+#X floatatom 308 144 5 0 0 0 - - -;
 #X text 169 310 - number of iterations in the for-loop.;
 #X text 82 476 1) float;
 #X text 169 476 - (optional) sets the initial number of the counter.

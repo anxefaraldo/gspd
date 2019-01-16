@@ -1,6 +1,6 @@
-#N struct 1008-pointer float x float y array 1008-array1 1008-icon
+#N struct 1015-pointer float x float y array 1015-array1 1015-icon
 ;
-#N struct 1008-icon float x float y;
+#N struct 1015-icon float x float y;
 #N canvas 307 23 553 575 10;
 #X obj 277 132 pointer;
 #X obj 193 14 loadbang;
@@ -34,7 +34,7 @@
 #X restore 122 75 pd pointer;
 #X obj 193 314 \$0;
 #N canvas 87 221 376 410 \$0-data 0;
-#X scalar 1008-pointer 0 100 \; 0 0 \; \;;
+#X scalar 1015-pointer 0 100 \; 38 -49 \; \;;
 #X coords 0 0 100 100 100 100 2 100 100;
 #X restore 10 10 pd \$0-data;
 #N canvas 55 67 373 97 icon 0;
@@ -57,7 +57,7 @@
 #X obj 154 538 outlet;
 #X obj 61 539 outlet;
 #X msg 220 291 0 100;
-#X obj 248 177 ../vanilla/forloop 0;
+#X obj 248 177 gspd/forloop 0;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
 #X connect 2 0 28 0;
