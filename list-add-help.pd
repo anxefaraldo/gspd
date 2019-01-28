@@ -1,4 +1,4 @@
-#N canvas 2 25 555 539 10;
+#N canvas 1328 79 555 539 10;
 #X obj 1 505 cnv 15 552 21 empty \$0-pddp.cnv.footer empty 20 12 0
 14 -228856 -66577 0;
 #X obj 1 0 cnv 15 552 40 empty \$0-pddp.cnv.header add2list 3 12 0
@@ -15,8 +15,7 @@
 #X obj 106 226 print;
 #X obj 199 181 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X floatatom 106 132 5 0 0 0 - - -, f 5;
-#X obj 106 200 add2list prepend;
+#X floatatom 106 132 5 0 0 0 - - -;
 #X text 331 155 see also:;
 #X text 98 75 Appends or prepends elements to a list \, according to
 its creation argument.;
@@ -38,7 +37,8 @@ its creation argument.;
 #X obj 333 193 pddp/helplink list prepend;
 #X obj 7 506 pddp/pddplink https://github.com/angelfaraldo/gspd;
 #X text 335 506 angelfaraldo@gmail.com \, 2015-2017;
-#X connect 6 0 10 0;
-#X connect 8 0 10 1;
-#X connect 9 0 10 0;
-#X connect 10 0 7 0;
+#X obj 106 200 list-add prepend;
+#X connect 6 0 28 0;
+#X connect 8 0 28 1;
+#X connect 9 0 28 0;
+#X connect 28 0 7 0;

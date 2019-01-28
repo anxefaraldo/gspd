@@ -40,7 +40,7 @@
 #X obj 312 214 list;
 #X obj 47 170 t b b;
 #X text 94 14 (we assume pc-sets with no duplicates);
-#X obj 55 61 zexy/sort;
+#X obj 55 61 sort;
 #X obj 240 660 cyclone/coll;
 #C restore;
 #X connect 0 0 4 0;

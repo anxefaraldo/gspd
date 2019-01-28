@@ -21,7 +21,7 @@
 #X msg 102 64 left inlet input must be one of the following: [-1 0
 1];
 #X obj 125 114 inlet;
-#X obj 125 136 zexy/sort;
+#X obj 125 136 sort;
 #X connect 0 0 5 0;
 #X connect 1 0 0 1;
 #X connect 1 0 7 1;

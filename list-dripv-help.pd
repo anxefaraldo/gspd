@@ -23,12 +23,12 @@
 #X obj 158 163 list-dripv;
 #X obj 158 189 print;
 #X text 328 174 see also:;
-#X text 98 79 similar to [zexy/drip] or [list-abs/list-drip];
+#X text 98 79 similar to [drip] or [list-abs/list-drip];
 #X text 142 310 - list.;
 #X text 72 388 float;
 #X text 142 388 - elements of incoming list \, one by one \, from left
 to right.;
-#X obj 330 189 helplink zexy/drip;
+#X obj 330 189 helplink drip;
 #X obj 329 206 helplink list-abs/list-drip;
 #X connect 9 0 13 0;
 #X connect 11 0 13 0;

@@ -1,4 +1,4 @@
-#N canvas 0 23 450 300 10;
+	#N canvas 0 23 450 300 10;
 #X obj 8 13 inlet~;
 #X obj 8 139 outlet~;
 #X obj 8 116 fexpr~ $x1[$f2];

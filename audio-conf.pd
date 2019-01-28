@@ -4,8 +4,8 @@
 #X obj 19 62 inlet;
 #X obj 46 177 cyclone/bondo 8, f 49;
 #X obj 46 103 route id ic od oc sr dl cb bs, f 56;
-#X obj 379 190 print -n;
-#X msg 379 115 ------------------------------------ \, audioconf: unrecognised
+#X obj 379 200 print -n;
+#X msg 379 125 ------------------------------------ \, audioconf: unrecognised
 parameter \, Valid configuration parameters are: \, id - input device
 \, ic - number of input channels \, od - output device \, oc - number
 of output channels \, sr - sampling rate \, dl - buffer delay \, cb

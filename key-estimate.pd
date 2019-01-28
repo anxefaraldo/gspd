@@ -197,9 +197,9 @@
 #X obj 649 189 symbol \$1;
 #X obj 854 61 r \$0-model;
 #X obj 23 203 s \$0-model;
-#X obj 515 69 zexy/tabdump \$0-profile;
+#X obj 515 69 tabdump \$0-profile;
 #X obj 622 123 iemlib/once;
-#X obj 632 319 zexy/sort;
+#X obj 632 319 sort;
 #X obj 338 373 cyclone/coll;
 #C restore;
 #X obj 854 83 cyclone/tosymbol;

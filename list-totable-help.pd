@@ -36,7 +36,7 @@
 #X obj 79 389 cnv 17 3 65 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
 -162280 0;
 #X text 82 476 1) list name;
-#X obj 193 236 pddp/helplink zexy/tabdump;
+#X obj 193 236 pddp/helplink tabdump;
 #X obj 7 506 pddp/pddplink https://github.com/angelfaraldo/gspd;
 #X text 335 506 angelfaraldo@gmail.com \, 2015-2017;
 #X connect 11 0 18 0;

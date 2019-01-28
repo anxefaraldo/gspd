@@ -16,7 +16,7 @@
 #X obj 24 260 outlet;
 #X obj 122 58 list;
 #X obj 24 63 t b a b a;
-#X obj 24 237 zexy/tabdump \$0-temp;
+#X obj 24 237 tabdump \$0-temp;
 #X connect 0 0 16 0;
 #X connect 1 0 4 0;
 #X connect 1 1 5 1;

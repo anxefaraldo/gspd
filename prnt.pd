@@ -6,7 +6,7 @@
 #X obj 12 39 inlet;
 #X obj 12 102 s \$0-print;
 #X msg 12 80 label \$1;
-#X obj 12 59 zexy/list2symbol;
+#X obj 12 59 list2symbol;
 #X obj 224 46 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 120 80 \; \$1-print label \; \$1-print label_pos 2 9 \; \$1-print

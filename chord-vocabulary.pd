@@ -73,7 +73,7 @@ add9(omit5) 9(omit5) maj9 maj9(omit5) add11 add11(omit5);
 #X obj 316 51 r \$0-reduction_type;
 #X obj 235 76 list prepend 0;
 #X obj 178 30 jasch_lib/strtok :;
-#X obj 190 176 zexy/list2symbol :;
+#X obj 190 176 list2symbol :;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;

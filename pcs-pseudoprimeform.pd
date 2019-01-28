@@ -43,7 +43,7 @@
 #X obj 302 646 pcs-transpose;
 #X obj 302 599 t l f;
 #X obj 377 624 * -1;
-#X obj 30 46 zexy/sort;
+#X obj 30 46 sort;
 #X obj 215 645 cyclone/coll;
 #C restore;
 #X connect 0 0 5 0;

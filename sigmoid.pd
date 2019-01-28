@@ -80,7 +80,7 @@
 #X obj 527 53 r \$0-length;
 #X obj 527 79 * 0.1;
 #X obj 192 96 *;
-#X obj 149 341 zexy/repack \$1;
+#X obj 149 341 repack \$1;
 #X connect 0 0 1 0;
 #X connect 0 0 4 0;
 #X connect 1 0 0 1;

@@ -1,8 +1,8 @@
 #N canvas 315 163 450 436 10;
 #X obj 29 9 inlet;
 #X obj 29 281 outlet;
-#X obj 29 104 zexy/drip 0;
-#X obj 208 105 zexy/drip 0;
+#X obj 29 104 drip 0;
+#X obj 208 105 drip 0;
 #X obj 217 62 inlet;
 #X obj 29 32 t l b b, f 38;
 #X obj 29 76 t l l, f 13;

@@ -3,7 +3,7 @@
 #X obj 17 11 inlet;
 #X obj 17 140 outlet;
 #X obj 17 118 cyclone/fromsymbol;
-#X obj 17 95 zexy/list2symbol;
+#X obj 17 95 list2symbol;
 #X obj 110 53 loadbang;
 #X connect 0 0 4 1;
 #X connect 1 0 4 0;

@@ -17,7 +17,7 @@
 #X obj 25 166 f 1;
 #X obj 25 299 ==;
 #X obj 25 323 sel 1;
-#X obj 38 71 zexy/sort;
+#X obj 38 71 sort;
 #X obj 38 92 vdrip;
 #X connect 0 0 10 0;
 #X connect 2 0 7 1;

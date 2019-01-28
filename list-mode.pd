@@ -37,12 +37,12 @@
 #X obj 283 398 outlet;
 #X obj 280 -248 t l b;
 #X obj 224 -331 t l l;
-#X obj 224 -308 zexy/sort;
+#X obj 224 -308 sort;
 #X obj 329 -247 list-abs/list-unique;
 #X obj 219 60 list-abs/list-math + 1;
-#X obj 199 109 zexy/minmax;
-#X obj 232 131 zexy/listfind;
-#X obj 370 330 zexy/packel;
+#X obj 199 109 minmax;
+#X obj 232 131 listfind;
+#X obj 370 330 packel;
 #X obj 242 191 vdrip;
 #X obj 165 -275 vdrip;
 #X connect 0 0 12 0;

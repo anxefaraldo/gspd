@@ -142,7 +142,7 @@
 #X msg 546 332 set \$1-whole-flat y;
 #X obj 476 146 list fromsymbol;
 #X obj 476 124 symbol \$1;
-#X obj 476 101 zexy/drip;
+#X obj 476 101 drip;
 #X obj 74 447 vdrip;
 #X obj 415 396 forloop 12;
 #X obj 346 416 forloop 12;

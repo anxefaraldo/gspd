@@ -13,8 +13,8 @@
 #X text 82 35 classes are in asscending order.;
 #X obj 196 75 outlet;
 #X text 125 101 lowest (real) note in the chord;
-#X obj 11 35 zexy/sort;
-#X obj 17 311 zexy/sort;
+#X obj 11 35 sort;
+#X obj 17 311 sort;
 #X obj 8 152 add2list;
 #X obj 11 107 vdrip;
 #X connect 0 0 14 0;

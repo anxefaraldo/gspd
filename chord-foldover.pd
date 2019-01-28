@@ -20,7 +20,7 @@
 #X msg 172 47 left inlet input must be one of the following: [-1 0
 1];
 #X obj 195 91 inlet;
-#X obj 195 112 zexy/sort;
+#X obj 195 112 sort;
 #X obj 126 267 t l l;
 #X obj 153 290 list split 1;
 #X obj 222 269 - 1;

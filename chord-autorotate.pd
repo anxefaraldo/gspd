@@ -9,7 +9,7 @@
 #X obj 17 47 t l l b;
 #X obj 17 67 list length;
 #X obj 17 87 until;
-#X obj 17 27 zexy/sort;
+#X obj 17 27 sort;
 #X connect 0 0 10 0;
 #X connect 2 0 4 0;
 #X connect 3 0 5 0;

@@ -173,10 +173,10 @@
 #X obj 29 903 outlet;
 #X obj 28 43 t b a;
 #X obj 118 274 chord-autorotate;
-#X obj 118 405 zexy/listfind;
-#X obj 398 536 zexy/packel;
-#X obj 169 620 zexy/packel;
-#X obj 236 863 zexy/list2symbol;
+#X obj 118 405 listfind;
+#X obj 398 536 packel;
+#X obj 169 620 packel;
+#X obj 236 863 list2symbol;
 #X msg 329 843 symbol;
 #X obj 255 341 list2int;
 #X obj 118 318 list2int;
@@ -185,7 +185,7 @@
 #X obj 28 109 sel 0;
 #X obj 55 131 delay;
 #X obj 440 590 mod 12;
-#X obj 392 158 zexy/sort;
+#X obj 392 158 sort;
 #X obj 211 768 list prepend;
 #X obj 292 705 r \$0-inv;
 #X obj 211 789 route 0 1;

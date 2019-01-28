@@ -1,5 +1,5 @@
 #N canvas 443 248 781 550 10;
-#X obj 13 77 zexy/list2symbol;
+#X obj 13 77 list2symbol;
 #X msg 263 12 prueba de simbolos;
 #X obj 261 88 list length;
 #X obj 452 168 print l2sv;

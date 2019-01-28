@@ -31,8 +31,8 @@
 #X obj 137 159 f 120;
 #X msg 22 107 8;
 #X obj 46 38 route bang click tempo quantize;
-#X obj 279 368 zexy/fifop;
-#X obj 51 440 zexy/dirac~;
+#X obj 279 368 fifop;
+#X obj 51 440 dirac~;
 #X connect 0 0 31 0;
 #X connect 1 0 15 0;
 #X connect 1 0 28 1;

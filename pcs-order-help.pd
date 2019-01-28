@@ -30,7 +30,7 @@ incoming list \, from low to high.;
 0 13 -228856 -1 0;
 #X obj 79 389 cnv 17 3 65 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
 -162280 0;
-#X obj 350 211 pddp/helplink zexy/sort;
+#X obj 350 211 pddp/helplink sort;
 #X obj 7 506 pddp/pddplink https://github.com/angelfaraldo/gspd;
 #X text 335 506 angelfaraldo@gmail.com \, 2015-2017;
 #X connect 9 0 10 0;
