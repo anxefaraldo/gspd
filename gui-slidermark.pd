@@ -1,4 +1,4 @@
-#N struct 1254-hline float pos;
+#N struct 1006-hline float pos;
 #N canvas 189 208 689 469 10;
 #X obj 245 128 pointer;
 #X obj 159 1 loadbang;
@@ -10,7 +10,7 @@
 #X obj 13 33 drawpolygon 966 3 0 pos 7 pos;
 #X restore 134 279 pd hline;
 #N canvas 84 234 376 410 \$0-data 0;
-#X scalar 1254-hline 48 \;;
+#X scalar 1006-hline 103 \;;
 #X coords 0 0 15 106 15 106 2 100 100;
 #X restore 150 100 pd \$0-data;
 #X obj 202 184 append \$0-hline pos;
@@ -26,7 +26,7 @@
 #X obj 202 119 \$2;
 #X obj 85 76 route set;
 #X obj 150 102 vsl 15 101 0 100 0 0 \$0-in \$0-out empty 0 -9 0 10
--66577 -258113 -1 0 1;
+-66577 -258113 -1 4700 1;
 #X obj 157 211 s \$1;
 #X obj 93 54 r set-\$1;
 #X connect 0 0 7 1;
